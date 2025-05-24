@@ -59,6 +59,7 @@
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({ name1, birth1, name2, birth2 }),
+                    mode: "cors"
                 });
 
                 const data = await response.json();
